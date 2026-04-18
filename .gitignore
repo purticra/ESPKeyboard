@@ -1,0 +1,31 @@
+# Build
+build/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Arduino
+*.elf
+*.bin
+*.hex
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CAD temp files
+*.tmp
+*.bak
+~$*
+
+# GrabCAD third-party models (CC BY-NC, not redistributable)
+pushbutton-drucktaster-r13-507-1*/
+hw-040-rotary-encoder-for-arduino-1*/
+pcb-esp32-38pines-w-room-1*/
